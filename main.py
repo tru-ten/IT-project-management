@@ -3,7 +3,7 @@ while True:
     age = input('Write your age here: ')
     if (name.isalpha() and len(name) > 2) and (age.isdigit() and 5 < int(age) < 100):
         print(f'Your name is {name.capitalize()} and you are {age} years old')
-        input('press any button to exit')
+        input('Press enter to exit')
         break
     elif not (name.isalpha() and len(name) > 2):
         print('Failed to initialize name\n')
