@@ -1,4 +1,4 @@
-from сonverter import NumberToWordsConverter 
+from converter import NumberToWordsConverter 
 import unittest
 
 class TestNumberToWordsConverter(unittest.TestCase):
